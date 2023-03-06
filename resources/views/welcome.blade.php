@@ -22,7 +22,7 @@
 
             <div class="p-6 bg-gray-50 border rounded-lg shadow-lg">
                 <div id="emoticon-container">
-                    <div class="flex items-center w-ful">
+                    <div class="flex justify-between items-center w-full">
                         <input type="text" class="p-2 text-lg focus:outline-none bg-transparent" value="{{ e('anger') }}">
                         <div id="loading-container" class="invisible">
                             <svg fill="none" class="h-8 w-8 animate-spin text-orange-600" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
