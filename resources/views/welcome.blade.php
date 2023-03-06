@@ -20,10 +20,10 @@
         <div class="max-w-4xl mx-auto p-6 lg:p-8">
             <h1 class="text-center text-4xl py-8 font-light">Emoticon Generator</h1>
 
-            <div class="p-6 bg-white rounded-lg shadow-lg">
+            <div class="p-6 bg-gray-50 border rounded-lg shadow-lg">
                 <div id="emoticon-container">
                     <div class="flex items-center w-ful">
-                        <input type="text" class="p-2 text-lg focus:outline-none" value="{{ e('anger') }}">
+                        <input type="text" class="p-2 text-lg focus:outline-none bg-transparent" value="{{ e('anger') }}">
                         <div id="loading-container" class="invisible">
                             <svg fill="none" class="h-8 w-8 animate-spin text-orange-600" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                                 <path clip-rule="evenodd" d="M15.165 8.53a.5.5 0 01-.404.58A7 7 0 1023 16a.5.5 0 011 0 8 8 0 11-9.416-7.874.5.5 0 01.58.404z" fill="currentColor" fill-rule="evenodd" />
